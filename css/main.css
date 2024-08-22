@@ -1,0 +1,228 @@
+body{
+    margin:0;
+    padding: 0;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#A8D2DF;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background:#A8D2DF ;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;    
+}
+
+input {
+    background-color: #e98dc4; /* Color de fondo */
+    color: #514d6b;            /* Color del texto */
+    
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a{
+    margin-right: 30px;
+    color: #000000;
+}
+
+nav .nav-right-section .menu-icon{
+    background-image: url('https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png');
+    background-position: center;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+}
+
+nav .nav-right-section img {
+    border-radius: 50px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    width: 330px;
+    height: 120px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e98dc4;
+    }
+
+    main .main-input input{
+        width: 450px;
+        height: 40px;
+        border: none;
+        outline: none;
+    }
+
+    main .main-input-container:hover{
+        box-shadow: 0 1px 6px 0 #20212447;
+        border-color: #dfe1e500;
+    }
+
+    main .main-input .search-icon{
+        background-image: url('https://img.icons8.com/android/24/000000/search.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 18px;
+        height: 18px;
+        margin: 18px;
+        
+    }
+
+   main .main-input .micro-icon {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+    }
+    .came-icon{
+        background-image: url('https://static.vecteezy.com/system/resources/previews/022/484/512/original/google-lens-icon-logo-symbol-free-png.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+        margin: 18px;
+    }
+
+    main .main-buttons{
+        width: 530px;
+        margin: 0 auto;
+    }
+    main .main-buttons div {
+        display: inline-block;
+        
+    }
+
+    main .main-buttons button {
+        height: 36px;
+        background: #DFA4C7;
+        border: 0;
+        font-size: 14px;
+        color: #ffffff;
+        border-radius: 80px;
+        padding: 0 15px;
+        margin-right: 15px;
+        
+    }
+    main .main-buttons button:hover {
+        border: 1px solid #c6c6c6;
+        box-shadow: 0 1px 1px #000000;
+        color: #000000;
+    }
+    
+    .bu {
+    position: fixed;
+    height: 36px;
+    background: #e98dc4;
+    border: 0;
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 80px;
+    padding: 0 15px; 
+    bottom: 70px; /* Distancia desde la parte inferior de la ventana */
+    left: 20px; /* Distancia desde la parte izquierda de la ventana */
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+    }
+    
+
+    footer{
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        font-size: 12px;
+        background: #8979B3;
+    }
+
+    footer ul{
+        margin: 10px;
+        list-style: none;
+        display: flex;
+        padding-left:0;
+    }
+
+.footer-left {
+        justify-self: left;
+    }
+
+.footer-right {
+        justify-self: right;
+        
+    }
+
+    footer ul li a {
+        margin: 10px;
+        color: #ffffff;
+    }
+
+    .footer-container {
+        position: relative;
+      }
+      
+      .small-div {
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 200px; /* Ancho del div */
+        height: 100px; /* Altura del div */
+        background-color: #f2f2f2; /* Color de fondo */
+        border: 1px solid #ccc; /* Borde opcional */
+        border-radius: 8px; /* Bordes redondeados */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+        text-align: center; /* Centrar el texto */
+        padding: 10px; /* Espaciado interno */
+      }
+      
