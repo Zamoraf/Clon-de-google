@@ -23,7 +23,7 @@ Incluyen hinpervinculos al final de la pagina
 
 ## Vista previa
 
-![clon](direccion de imagen)
+![Demo](imagenes/Demo.jpeg)
 
 Hecha con amor y dedicacion por Fany Marily Zamora Moreno
 
