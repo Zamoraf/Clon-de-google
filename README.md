@@ -6,7 +6,7 @@ Poniendo en practica lo aprendido durante el bootcamp logre realizar un clon del
 
 * puedes visitarlo aqui
 
-[clon de google](link vercel)
+[clon de google](https://clon-de-google-dun.vercel.app/)
 
 ## Contenido del proyecto
 1. Header
